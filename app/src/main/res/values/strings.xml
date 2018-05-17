@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--application name-->
+    <string name="app_name">GrabDemo</string>
+
+    <string name="facebook_app_id">817429025107116</string>
+    <string name="fb_login_protocol_scheme">fb817429025107116</string>
+
+
+    <!--drawer opern and close-->
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="notification_name">Notification</string>
+
+    <string name="login_text">Save Coupon, Follow Merchants, \n Comments and Much More</string>
+    <string name="help">Help &#38; Support</string>
+    <string name="Contact_text">Contact Us \n \n Got any queries or feedback to provide? Feel \n free to contact vijaymaddhsiya@gmail.com. We will get back to you in a jiffy.</string>
+    <string name="Terms_text">Terms of Use \n \n We at GrabDemo do everything possible to make your online shopping convenient.Here are the Terms of Use that help us,help you better! </string>
+    <string name="Policy_text">Privacy Policy \n \n At GrabDemo, we value your privacy.\n Rest assured all your details are safe with us.</string>
+    <string name="Partner_text">Partner With Us \n \n Partner with us and add more to your business;)</string>
+    <string name="feedback_text">We at GranDemo \n guarantee you a smile-worthy experience.\n Your valuable feedback helps us improve and \n help you better :)</string>
+    <string name="feedback_name">Feedback</string>
+    <string name="feedback_dialog">Got ideas for new features?\n Any issues regarding the app? No\n worries!</string>
+
+    <!--change mode of app-->
+    <string name="menu_night_mode">Night mode</string>
+    <string name="menu_night_mode_system">Follow system</string>
+    <string name="menu_night_mode_day">Day (always)</string>
+    <string name="menu_night_mode_night">Night (always)</string>
+    <string name="menu_night_mode_auto">Auto</string>
+    <string name="GrabDemoDay">Grab Of The Day</string>
+    <string name="app_setting">Settings</string>
+
+
+    <!--rate our app play store-->
+    <string name="rta_dialog_title">Rate this app</string>
+    <string name="rta_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="rta_dialog_ok">Rate now</string>
+    <string name="rta_dialog_cancel">Later</string>
+    <string name="rta_dialog_no">No, thanks</string>
+    <string name="rating">How Would You \n Rate Our App Experience?</string>
+    <string name="appRating">Rate The App</string>
+    <string name="camera">settings</string>
+    <string name="person">persons</string>
+    <string name="search">search</string>
+    <string name="CouponFinderText">Hi,\n What do you \n want to do today?</string>
+    <string name="CouponFinderChoose">Choose 1 from 4 diverse categories</string>
+    <string name="couponfinder">Coupon Finder</string>
+    <string name="shareit">Love The App? \n Why Not Share It :)</string>
+    <string name="skip_text">Skip this, I\'ll do later</string>
+
+</resources>

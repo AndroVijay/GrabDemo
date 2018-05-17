@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+        <color name="colorPrimary">@color/white</color>
+        <color name="colorPrimaryDark">#006064</color>
+        <color name="colorAccent">#6C95D8</color>
+        <color name="bg_light">#36000000</color>
+
+        <color name="bottomtab_item_resting">#36000000</color>
+        <color name="bottomtab_item_disabled">#1e000000</color>
+
+        <color name="bottomtab_0">#6CCC3D</color>
+        <color name="bottomtab_1">#EA5C46</color>
+        <color name="bottomtab_2">#33b3cc</color>
+
+        <color name="colorPrimaryNight">#3F51B5</color>
+        <color name="colorPrimaryDarkNight">#303F9F</color>
+        <color name="colorAccentNight">#FFC107</color>
+        <color name="bg_dark">#263238</color>
+
+        <color name="divider_light">#0c000000</color>
+
+        <!--Application Rating color-->
+        <color name="starColor">#57a6f0</color>
+        <color name="noteDescriptionTextColor">#57a6f0</color>
+        <color name="titleTextColor">#D9141627</color>
+        <color name="descriptionTextColor">#80141627</color>
+        <color name="commentTextColor">#D9141627</color>
+
+</resources>

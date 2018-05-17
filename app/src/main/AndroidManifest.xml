@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rationalheads.vijay.grabdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activites.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activites.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activites.NotificationActivity"
+            android:label="@string/notification_name"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activites.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activites.HelpSuportActivity"
+            android:label="@string/help"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activites.FeedbackActivity"
+            android:label="@string/feedback_name"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activites.GrabDemoDayActivity"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activites.SettingActivity"
+            android:label="@string/app_setting"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activites.AppRatingActivity"
+            android:label="@string/appRating"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".activites.FestivalOffersActivity"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".activites.FestivalOfferItemListnerActivity"
+            android:parentActivityName=".activites.FestivalOfferItemListnerActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <!--<receiver-->
+            <!--android:name=".broadcastreceiver.ConnectivityReceiver"-->
+            <!--android:enabled="true">-->
+
+        <!--</receiver>-->
+
+        <activity
+            android:name=".activites.BankOffersActivity"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".activites.CouponFinderActivity"
+            android:label="@string/couponfinder"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "569424525388",
+    "firebase_url": "https://grabdemo-202007.firebaseio.com",
+    "project_id": "grabdemo-202007",
+    "storage_bucket": "grabdemo-202007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569424525388:android:869be0907de21a12",
+        "android_client_info": {
+          "package_name": "com.example.rationalheads.vijay.grabdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569424525388-g6j81ol0oi3u9mjb7p87nrv401ppotrt.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "569424525388-1409hhh2gnfi0mp4vpkopineljjif5ko.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "569424525388-2uhqnhk6rn2poth5rkqci9vs61j99kil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rationalheads.vijay.grabdemo",
+            "certificate_hash": "ca811bc2e66db5daa49ae77f47a74aec5342bfc3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHg0hNgPHjW9EPLpyJSBPMaQoRV3EPXVY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569424525388-g6j81ol0oi3u9mjb7p87nrv401ppotrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

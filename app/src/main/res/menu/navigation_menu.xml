@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+
+        <item
+            android:id="@+id/nav_coupon_finder"
+            android:icon="@drawable/ic_local_offer"
+            android:title="Coupon Finder" />
+
+
+        <item
+            android:id="@+id/nav_grab_on_day"
+            android:icon="@drawable/ic_thumb_up"
+            android:title="Grab Of The Day" />
+
+
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_menu_black_24dp"
+            android:title="Categories" />
+
+
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_store_black_24dp"
+            android:title="Stores" />
+
+
+        <item
+            android:id="@+id/nav_brand"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Bank Offers" />
+
+
+        <item
+            android:id="@+id/nav_festival_offer"
+            android:icon="@drawable/ic_local_offer"
+            android:title="Festival Offers" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications_none_black_24dp"
+            android:title="Notifications" />
+
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share The App" />
+
+        <item
+            android:id="@+id/nav_rate_app"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="Rate The App" />
+
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Feedback" />
+
+
+        <item
+            android:id="@+id/nav_Help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help &#38; Support" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout"/>
+
+
+    </group>
+
+</menu>
